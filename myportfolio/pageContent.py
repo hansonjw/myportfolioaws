@@ -1,3 +1,5 @@
+from .contentWords import wordsuco, wordsund, wordsuca
+
 # Common stuff
 #######
 
@@ -27,6 +29,10 @@ footer = {
 # pages
 #######
 projects = {
+    'title':'Projects',
+    'quote':"""
+    Stay primitive. Trust the soup. Swing for the seats. Be ready for resistance. - Steven Pressfield
+    """,
     'projects':{
         'stockmarket':{
             'title':'The Stock Market',
@@ -108,7 +114,17 @@ projects = {
 
 home = {
     'title': 'Welcome',
-    'quote': 'something neat and clever',
+    'quote': {
+        'welcome': """
+        "The fight is won or lost far away from witnesses - behind the lines, in the gym, and out there on the road, long before I dance under those lights." - Muhammad Ali'
+        """,
+        'skills': """
+        “What looks like talent is often careful preparation. What looks like skill is often persistent revision.” - James Clear'
+        """,
+        'learn':"""
+        "You can't connect the dots looking forward; you can only connect them looking backward..." - Steve Jobs
+        """
+    },
     'words': 'blah, blah, blah...for now...this may need to be a list or dict',
     'icons': {
         'python':{'icon':'static/icons/python.svg', 'name':'Python', 'link':'https://www.python.org'},
@@ -126,9 +142,11 @@ home = {
         'bootstrap':{'icon':'static/icons/bootstrap.png', 'name':'Bootstrap', 'link':'https://getbootstrap.com'},
     },
     'university':{
-        'uco':{'images':'static/uco.png', 'title':'University of Colorado', 'words':['University of Colorado, yay!', 'more and more', '...and a bit more'], 'link':'https://colorado.edu'},
-        'und':{'images':'static/und.png', 'title':'University of Notre Dame', 'words':['University of Notre Date, yay!', 'more and more', '...and a bit more'], 'link':'https://www.nd.edu'},
-        'uca':{'images':'static/uca.png', 'title':'University of California', 'words':['University of California, yay!', 'more and more', '...and a bit more'], 'link':'https://www.berkeley.edu'}
+        'uco':{'images':'static/uco.png', 'title':'University of Colorado', 'words': wordsuco, 'link':'https://colorado.edu'},
+        'und':{'images':'static/und.png', 'title':'University of Notre Dame', 'words': wordsund, 'link':'https://www.nd.edu'},
+        'em':{'images':'static/em.png', 'title':'ExxonMobil', 'words':['e','m'], 'link':'https://www.exxonmobil.com'},
+        'uca':{'images':'static/uca.png', 'title':'University of California - Extension', 'words': wordsuca, 'link':'https://extension.berkeley.edu'},
+        
     },
     'footer': footer
 }
@@ -136,6 +154,10 @@ home = {
 
 
 fun = {
+    'title':'Interests',
+    'quote' : """
+    "Curiosity has its own reason for existing.'\n\t- Albert Einstein"
+    """,
     'locs' : ['maroonbells', 'stream', 'megatron','garden', 'starbase','saturn5', 'midland', 'pebble', 'carmel', 'oregon'],
     'images' : {
         'garden':'static/garden.jpeg',

@@ -4,12 +4,8 @@
 {% block content %}
     <section class="hero is-small has-background-white-ter">
         <div class="hero-body">
-            <p class="title">
-                For fun...
-            </p>
-            <p class="subtitle">
-                Below are some places that I've enjoyed visiting recently...
-            </p>
+            <p class="title">{{ data.title }}</p>
+            <p class="subtitle is-italic is-size-6 py-3 has-text-grey">{{ data.quote }}</p>
         </div>
     </section>
 

@@ -6,7 +6,7 @@
 <section class="hero is-small has-background-white-ter">
     <div class="hero-body">
         <p class="title">{{ data.title }}</p>
-        <p class="subtitle">{{ data.quote }}</p>
+        <p class="subtitle is-italic is-size-6 py-3 has-text-grey">{{ data.quote.welcome }}</p>
         </p>
     </div>
 </section>
@@ -27,8 +27,7 @@
 <section class="hero is-small has-background-white-bis">
     <div class="hero-body">
         <p class="title">Skills</p>
-        <p class="subtitle">Below is a list of some of my favorite technologies, languages, and skills</p>
-        </p>
+        <p class="subtitle is-italic is-size-6 py-3 has-text-grey">{{ data.quote.skills }}</p>
     </div>
 </section>
 <section class="has-background-white-bis">
@@ -54,10 +53,10 @@
         </div>
     </div>
 </section>
-<section class="hero is-medium has-background-white-ter">
+<section class="hero is-small has-background-white-ter">
     <div class="hero-body">
-        <p class="title">A Lifelong Learner</p>
-        <p class="subtitle is-italic">"...you can't connect the dots looking forward; you can only connect them looking backward" - Steve Jobs</p>
+        <p class="title">Lifelong Learner</p>
+        <p class="subtitle is-italic is-size-6 py-3 has-text-grey">{{ data.quote.learn }}</p>
         </p>
     </div>
 </section>
@@ -66,11 +65,11 @@
         <div class="column is-10 is-offset-1">
             <div class="columns is-multiline">
             {% for x in data.university.keys() %}
-                <div class="column is-one-third">
+                <div class="column is-half">
                     <div class="card">
                         <div class="card-image has-text-centered">
                             <figure class="image is-inline-block is-128x128 py-3">
-                                <img class="is-square" src="{{ data.university[x]['images'] }}">
+                                <img class="is-vcentered" src="{{ data.university[x]['images'] }}">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -84,7 +83,7 @@
                                 {% for w in data.university[x]['words'] %}
                                     <p>{{ w }}</p>
                                 {% endfor %}
-                                <a href="{{ data.university[x]['link'] }}" targer="_blank">website</a>
+                                <a href="{{ data.university[x]['link'] }}" target="_blank">website</a>
                             </div>
                         </div>
                     </div>

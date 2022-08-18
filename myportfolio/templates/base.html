@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My Portfolio</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <link rel='stylesheet' type='text/css' media='screen' href="./../static/style.css">
+        <link rel='stylesheet' type='text/css' media='screen' href="static/style.css">
     </head>
 
     <body>
-        <nav class="navbar navbar is-fixed-top is-dark has-shadow" role="navigation" aria-label="main navigation">
+        <nav class="navbar navbar is-fixed-top is-light has-shadow" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">            
                 <a role="button" class="is-hidden-desktop">
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.home') }}">Home</a>
@@ -47,9 +47,9 @@
             {% block content %}
             {% endblock %}
         </section>
-        <footer class="footer has-background-grey-darker">
+        <footer class="footer is-light">
             <div class="columns is-vcentered  is-mobile is-centered">
-                <div class="column is-vcentered is-narrow is-hidden-touch"><p>This page was built with: </p></div>
+                <div class="column is-vcentered is-narrow is-hidden-touch"><p>This site was built with: </p></div>
                 {% for t in data.footer.techlist %}
                 <div class="column is-vcentered is-narrow">
                     <a href="{{ data.footer.techdict[t]['link'] }}" target=”_blank”>

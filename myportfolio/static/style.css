@@ -1,5 +1,3 @@
-.jimage {
-    border-radius: .5rem;
-    border-color: yellow
-
+p.subtitle {
+    white-space: pre-wrap;
 }
