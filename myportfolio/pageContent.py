@@ -136,7 +136,7 @@ home = {
 
 
 fun = {
-    'locs' : ['maroonbells', 'stream', 'megatron','garden', 'starbase', 'carmel'],
+    'locs' : ['maroonbells', 'stream', 'megatron','garden', 'starbase','saturn5', 'midland', 'pebble', 'carmel', 'oregon'],
     'images' : {
         'garden':'static/garden.jpeg',
         'maroonbells':'static/maroonbells.jpeg',
@@ -144,6 +144,10 @@ fun = {
         'megatron':'static/megatron.jpeg',
         'carmel':'static/carmel.jpeg',
         'stream':'static/stream.jpeg',
+        'midland':'static/midland.jpeg',
+        'oregon':'static/oregon.jpeg',
+        'pebble':'static/pebble.jpeg',
+        'saturn5':'static/saturn5.jpeg',
     },
     'words' : {
         'garden':["rocket garden blah", "rocket garden blah blah", "rocket garden blah blah blah"],
@@ -152,6 +156,10 @@ fun = {
         'megatron':["megatron blah", "megatron blah blah", "megatron blah blah blah"],
         'carmel':["carmel blah", "blah", "blah"],
         'stream':["stream blah", "blah", "blah"],
+        'midland':["midland blah", "blah", "blah"],
+        'oregon':["oregon blah", "blah", "blah"],
+        'pebble':["pebble blah", "blah", "blah"],
+        'saturn5':["saturn5 blah", "blah", "blah"],
     },
     'links' : {
         'garden':'https://goo.gl/maps/ao5J71RrhYNk6t8r7',
@@ -159,15 +167,25 @@ fun = {
         'starbase':'https://goo.gl/maps/ao5J71RrhYNk6t8r7',
         'megatron': "https://goo.gl/maps/kdun97NejvLk1uvg6",
         'carmel':'https://goo.gl/maps/VqZXdhyBNZxTizmw9',
-        'stream':'https://goo.gl/maps/nB7yJQzNaukAa9ZN6'
+        'stream':'https://goo.gl/maps/nB7yJQzNaukAa9ZN6',
+        'midland':'https://goo.gl/maps/XEicjSQPmq7bhuuc9',
+        'oregon':'https://goo.gl/maps/uc2xsLLoWFSoDjsEA',
+        'pebble':'https://goo.gl/maps/j4KiHk79RmHAxB7a9',
+        'saturn5':'https://g.page/spacecenterhou?share',
     },
     'titles' : {
-        'garden':'Rocket Garden at Starbase, TX',
-        'maroonbells':'Maroon Bells near Aspen, CO',
-        'starbase':'"The Sign" at Starbase, TX',
-        'megatron':'Starbase Launch Complex and "Megatron" near Boca Chica Beach, TX',
-        'carmel':'Pebble Beach near Carmel, CA',
-        'stream':'Pfiefer Big Sur State Park south of Carmel, CA',
+        'garden':'Boca Chica, TX',
+        'maroonbells':'Aspen, CO',
+        'starbase':'Starbase, TX',
+        'megatron':'Boca Chica, TX',
+        'carmel':'Monterey Penninsula, CA',
+        'stream':'Big Sur, CA',
+        'midland':'Midland, TX',
+        'oregon':'Oregon Coast',
+        'pebble':'Monterey Penninsula, CA',
+        'saturn5':'Houston, TX',
+    },
+    'linktext' : {
     },
     'footer':footer,
 }
