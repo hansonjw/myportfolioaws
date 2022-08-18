@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel='stylesheet' type='text/css' media='screen' href="./../static/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar is-fixed-top is-dark has-shadow" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">            
+                <a role="button" class="is-hidden-desktop">
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.home') }}">Home</a>
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.projects') }}">Projects</a>
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.contact')}}">Contact</a>
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.fun') }}">Fun</a>
+                </a>
+            </div>
+            
+            <div id="navbar-content" class="navbar-menu" id="options">
+                <div class="navbar-start">
+                    <a class="navbar-item {{ 'is-active' if active_page=='home' else '' }}" href="{{ url_for('routes.home') }}">Home</a>
+                    <a class="navbar-item {{ 'is-active' if active_page=='projects' else '' }}" href="{{ url_for('routes.projects') }}">Projects</a>
+                    <a class="navbar-item {{ 'is-active' if active_page=='contact' else '' }}" href="{{ url_for('routes.contact')}}">Contact</a>
+                    <a class="navbar-item {{ 'is-active' if active_page=='fun' else '' }}" href="{{ url_for('routes.fun') }}">Fun</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            More
+                        </a>
+                
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="{{ url_for('routes.home') }}">Home</a>
+                            <a class="navbar-item" href="{{ url_for('routes.projects') }}">Projects</a>
+                            <a class="navbar-item" href="{{ url_for('routes.contact')}}">Contact</a>
+                            <a class="navbar-item" href="{{ url_for('routes.fun') }}">Fun</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end"></div>
+            </div>
+        </nav>
+        
+        <section class="section has-background-white-bis">
+            {% block content %}
+            {% endblock %}
+        </section>
+        <footer class="footer has-background-grey-darker">
+            <div class="columns is-vcentered  is-mobile is-centered">
+                <div class="column is-vcentered is-narrow is-hidden-touch"><p>This page was built with: </p></div>
+                {% for t in data.footer.techlist %}
+                <div class="column is-vcentered is-narrow">
+                    <a href="{{ data.footer.techdict[t]['link'] }}" target=”_blank”>
+                        <figure class="image is-inline-block is-48x48 p-1">
+                            <img src="{{ data.footer.techdict[t]['icon'] }}">
+                        </figure>
+                    </a>
+                </div>
+                {% endfor %}
+        
+                <div class="column is-narrow is-hidden-touch"><p class="">...and deployed at:</p></div>
+                <div class="column is-vcentered is-narrow">
+                    <a href="{{ data.footer.techdict[data.footer.deployed]['link'] }}" target=”_blank”>
+                        <figure class="image is-inline-block is-48x48 p-1">
+                            <img src="{{ data.footer.techdict[data.footer.deployed]['icon'] }}">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

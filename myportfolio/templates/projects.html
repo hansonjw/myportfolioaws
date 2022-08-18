@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% set active_page="projects" %}
+
+{% block content %}
+
+<section class="hero is-small has-background-white-ter">
+    <div class="hero-body">
+        <p class="title">Projects</p>
+        <p class="subtitle">Below is a list of projects I've been working on and would like to display...</p>
+        </p>
+    </div>
+</section>
+
+<section class="has-background-white-ter">
+    <div class="columns">
+        <div class="column is-10 is-offset-1">
+            <div class="columns is-multiline">
+                {% for x in data.projects.keys() %}
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <figure class="image is-inline-block is-128x128 py-3">
+                                <img class="is-square" src="{{ data.projects[x]['images'] }}">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-6 is-centered">{{ data.projects[x]['title'] }}</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                {% for w in data.projects[x]['words'] %}
+                                    <p>{{ w }}</p>
+                                {% endfor %}
+                                <a class="button is-success is-fullwidth" href="{{ data.projects[x]['link'] }}" target="_blank">Launch Application</a>
+                            </div>
+                            <p class="is-italic is-size-7">built with:</p>
+                            {% for t in data.projects[x]['techlist'] %}
+                                <figure class="image is-inline-block is-48x48 p-1">
+                                    <img class="is-square" src="{{ data.projects[x]['techdict'][t]['icon'] }}">
+                                </figure>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

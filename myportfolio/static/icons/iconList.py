@@ -1,0 +1,12 @@
+images = ['/static/icons/django.svg',
+	'/static/icons/flask.svg',
+	'/static/icons/javascript.svg',
+	'/static/icons/sql.svg',
+	'/static/icons/sql.svg',
+	'/static/icons/sql.svg',
+	'/static/icons/mongodb.svg',
+	'/static/icons/css.svg',
+	'/static/icons/python.svg',
+	'/static/icons/wordpress.svg',
+	'/static/icons/html.svg',
+	]

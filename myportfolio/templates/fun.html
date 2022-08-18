@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% set active_page="fun" %}
+
+{% block content %}
+    <section class="hero is-small has-background-white-ter">
+        <div class="hero-body">
+            <p class="title">
+                For fun...
+            </p>
+            <p class="subtitle">
+                Below are some places that I've enjoyed visiting recently...
+            </p>
+        </div>
+    </section>
+
+    <section class="has-background-white-ter">
+        <div class="columns">
+            <div class="column is-10 is-offset-1">
+                <div class="columns is-multiline">
+                    {% for x in data.locs %}
+                    <div class="column is-half">
+                        <div class="card">
+                            <div class="card-image has-text-centered">
+                                <figure class="image is-inline-block is-256x256">
+                                    <img class="is-square" src="{{ data.images[x] }}">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-6 is-centered">{{ data.titles[x] }}</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    {% for w in data.words[x] %}
+                                        <p>{{ w }}</p>
+                                    {% endfor %}
+                                    <a href={{ data.links[x] }} target="_blank"><p class="has-text-right-desktop is-italic">{{ x.capitalize() }}</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% endblock %}
