@@ -1,23 +1,30 @@
 wordsuco = [
-"I attended the University of Colorado where I studied Mechanical Engineering.  Here I developed an intense curiosity in math, computation and using machines to find solutions and insights.",  
-"I really got into Computer Aided Design, Finite Element Analysis, and Computation Fluid Dynamics on UNIX.  This set me up well for my early days as a Mechanical Design Engineer.",
-"I didn't quite realize it at the time, but I was developing a stronger interest in the analysis, computation, and the machine (computer) than I was in working the mechanical/hands-on type stuff.",
+"I studied Mechanical Engineering in the great town of Boulder, CO.  Here I developed an strong curiosity for math, computation and using machines to find solutions and insights.",  
+"My time at CU was spent working on Computer Aided Design (CAD), Finite Element Analysis (FEA), and Computation Fluid Dynamics (CFD) on UNIX workstations.",
+"I didn't quite realize it at the time, but I was developing a stronger interest in the analysis, data, computation, and the machine (computer) than I was in working the physical/mechanical systems.",
 ]
 
 wordsund = [
-"As my career progressed I started to dip my toes into the business side of things with understanding financials and learning about investment.",
-"Getting an MBA was a logical next step and filled in a lot of 'gaps' with my technical background. It was a wonderful 'eye-opening' experience and really helped me become a more well rounded thinker.",
-"At Notre Dame I found a wonderful community of learners and was exposed to the value of analysis in business.  Perhaps most importantly I was exposed to the writings of Warren Buffett, and his way of thinking.",
+"As my career progressed, especially in a manufacturing environment, I received my first exposure to the business and economics which caught my curiosity.  I found understanding financials and investment were crucial to being a good engineer.",
+"Getting an MBA was a logical next step and rounded out some key financial economic areas that couple extremely well with a technical background.",
+"At Notre Dame I found a wonderful community of disciplined learners and intellectually curious thinkers.",
 ]
 
 wordsem = [
-"ExxonMobil",
-"x",
-"and y",
+"After earning an MBA and I was fortunate to land a role at one of the worlds oldest, largest, and most successful global enterprises.  At ExxonMobil I had access some of the richest and largest data sets in all of business, and was tasked with turning that data into insights and information.",
+"Here I learned the tremendous value in well crafted and clear communication, and the key role economic analysis plays in making sound investment decisions at a corporate level.",
+"A key passion I discovered at ExxonMobil was turning raw data into actionable and insightful information and found the power in understanding databases, applied computation, and code.",
 ]
 
 wordsuca = [
-"The world and technology have moved so fast.  And they have become so",
-"x",
-"and y",
+"The world has changed so fast over the last 20 years or so, and I can only see the change accelerating in the future.",
+"The information economy is calling for people with a diverse set of skills and knowledge, and well rounded, critical thinkers.",
+"With this understanding, and having a clear sense of my strengths and interests, I felt the need to compliment my skills with a more structured understanding of coding.",
+"I found a perfect fit with the coding and fullstack web-development course at the Berkeley Extension where I earned a sound foundation in JavaScript and web technologies."
 ]
+
+wordsHome = """
+Thank you for visiting my personal home page.  Here you can find information on me, my skills, my interests, and some of the coding projects I'm working on.  Also, there is a page with contact information if you would like to get in touch with me.  Please have a look around.
+
+I've had quite a career working as an engineer, a business analyst, and a developer.  I've got a diverse backgrounda and a well rounded skillset suitable for this dynamic buisiness environmwent today.
+"""
