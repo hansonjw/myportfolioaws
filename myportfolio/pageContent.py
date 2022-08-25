@@ -63,7 +63,7 @@ projects = {
             'github':'https://github.com/hansonjw/zookeepr'
         },
         'techblog':{
-            'title':'Project Four',
+            'title':'My First Blog',
             'images':'static/techblog.png',
             'words':['This is a webapp was built during the UC Berkeley web development course.','This is where I really started to understand requests, database interfaces, routes, and storing data.'],
             'techlist':['javascript', 'html','css','mysql', 'heroku',],
