@@ -6,7 +6,7 @@ from .contentWords import wordsuco, wordsund, wordsuca, wordsem, wordsHome
 techdict = {
         'python':{'icon':'static/icons/python.svg', 'name':'Python', 'link':'https://www.python.org'},
         'javascript':{'icon':'static/icons/javascript.svg', 'name':'JavaScript (JS)', 'link':'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
-        'sql':{'icon':'static/icons/sql.svg','name':'PostgreSQL', 'link':'https://www.postgresql.org'},
+        'postgresql':{'icon':'static/icons/postgresql.svg','name':'PostgreSQL', 'link':'https://www.postgresql.org'},
         'html':{'icon':'static/icons/html.svg','name':'HTML', 'link':'https://developer.mozilla.org/en-US/docs/Web/HTML'},
         'css':{'icon':'static/icons/css.svg', 'name':'CSS', 'link':'https://developer.mozilla.org/en-US/docs/Web/CSS'},
         'flask':{'icon':'static/icons/flask.svg', 'name':'Flask', 'link':'https://flask.palletsprojects.com/en/2.2.x/'},
@@ -17,6 +17,7 @@ techdict = {
         'mongodb':{'icon':'static/icons/mongodb.svg', 'name':'MongoDB', 'link':'https://www.mongodb.com'},
         'bulma':{'icon':'static/icons/bulma.png', 'name':'Bulma', 'link':'https://bulma.io'},
         'bootstrap':{'icon':'static/icons/bootstrap.png', 'name':'Bootstrap', 'link':'https://getbootstrap.com'},
+        'mysql':{'icon':'static/icons/mysql.svg', 'name':'MySQL', 'link':'https://www.mysql.com'},
     }
 
 footer = {
@@ -37,74 +38,38 @@ projects = {
         'stockmarket':{
             'title':'The Stock Market',
             'images':'static/stockmarket.png',
-            'words':['blah blah blah','blah blah blah', 'blah blah blah'],
-            'techlist':['python','flask','bootstrap'],
+            'words':['This is a website I built to track and contextualize broad stock market.','The primary data set plotted in this site is the S&P 500 index.', 'This site makes use of some data analytic packages available in Python, specifically pandas, numpy and matplotlib'],
+            'techlist':['python','flask','bootstrap', 'postgresql','heroku'],
             'techdict': techdict,
-            'link':'https://lit-eyrie-84189.herokuapp.com'
+            'link':'https://lit-eyrie-84189.herokuapp.com',
+            'github':'https://github.com/hansonjw/otium-python'
         },
-        'project2':{
-            'title':'Project Two',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['javascript','django','bulma'],
+        'nfl':{
+            'title':'NFL Playoff Pickem league',
+            'images':'static/nfl.svg',
+            'words':['This webapp was built for my family NFL 2021 postseason pickem league.', 'Feel free to create an account, log in and see the functionality of the site.', 'This was my first Python/Flask app.  This utilizes a PostgreSQL database to store the account and login information.'],
+            'techlist':['python','flask','bootstrap', 'postgresql', 'heroku'],
             'techdict': techdict,
-            'link':'https://www.google.com'
+            'link':'https://peaceful-everglades-01949.herokuapp.com/auth/login',
+            'github':''
         },
-        'project3':{
-            'title':'Project Three',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['github','heroku','sql'],
+        'zookeeper':{
+            'title':'Zoo KeepR',
+            'images':'static/zookeepr.png',
+            'words':['This is a webapp was built during the UC Berkeley web development course.', 'In this project I gained exposure to forms and handling POST requests.', 'I also gained some preliminary experience utilizing a MySQL database on the back end to store form data.'],
+            'techlist':['javascript', 'html','css','mysql','heroku'],
             'techdict': techdict,
-            'link':'https://www.google.com'
+            'link':'https://pacific-island-81874.herokuapp.com/animals',
+            'github':'https://github.com/hansonjw/zookeepr'
         },
-        'project4':{
+        'techblog':{
             'title':'Project Four',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah','blah blah blah', 'blah blah blah'],
-            'techlist':['python','flask','bootstrap'],
+            'images':'static/techblog.png',
+            'words':['This is a webapp was built during the UC Berkeley web development course.','This is where I really started to understand requests, database interfaces, routes, and storing data.'],
+            'techlist':['javascript', 'html','css','mysql', 'heroku',],
             'techdict': techdict,
-            'link':'https://lit-eyrie-84189.herokuapp.com'
-        },
-        'project5':{
-            'title':'Project Two',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['javascript','django','bulma'],
-            'techdict': techdict,
-            'link':'https://www.google.com'
-        },
-        'project6':{
-            'title':'Project Three',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['github','heroku','sql'],
-            'techdict': techdict,
-            'link':'https://www.google.com'
-        },
-        'project7':{
-            'title':'The Stock Market',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah','blah blah blah', 'blah blah blah'],
-            'techlist':['python','flask','bootstrap'],
-            'techdict': techdict,
-            'link':'https://lit-eyrie-84189.herokuapp.com'
-        },
-        'project8':{
-            'title':'Project Two',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['javascript','django','bulma'],
-            'techdict': techdict,
-            'link':'https://www.google.com'
-        },
-        'project9':{
-            'title':'Project Three',
-            'images':'static/stockmarket.png',
-            'words':['blah blah blah', 'blah blah blah', 'blah blah blah'],
-            'techlist':['github','heroku','sql'],
-            'techdict': techdict,
-            'link':'https://www.google.com'
+            'link':'https://vast-fjord-84705.herokuapp.com',
+            'github':'https://github.com/hansonjw/tech-blog'
         },
     },
     'footer':footer
