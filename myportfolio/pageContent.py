@@ -51,7 +51,7 @@ projects = {
             'techlist':['python','flask','bootstrap', 'postgresql', 'heroku'],
             'techdict': techdict,
             'link':'https://peaceful-everglades-01949.herokuapp.com/auth/login',
-            'github':''
+            'github':'https://github.com/hansonjw/hansonnfl_3'
         },
         'zookeeper':{
             'title':'Zoo KeepR',
