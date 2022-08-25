@@ -5,15 +5,15 @@ wordsuco = [
 ]
 
 wordsund = [
-"As my career progressed, especially in a manufacturing environment, I received my first exposure to the business and economics which caught my curiosity.  I found understanding financials and investment were crucial to being a good engineer.",
+"As my career progressed, especially in a manufacturing environment, I received my first exposure to the business side of things.  Economics as an academic subject also caught my curiosity and attention.  I found understanding financials and investment were crucial to good decision making and being a good engineer a.",
 "Getting an MBA was a logical next step and rounded out some key financial economic areas that couple extremely well with a technical background.",
 "At Notre Dame I found a wonderful community of disciplined learners and intellectually curious thinkers.",
 ]
 
 wordsem = [
 "After earning an MBA and I was fortunate to land a role at one of the worlds oldest, largest, and most successful global enterprises.  At ExxonMobil I had access some of the richest and largest data sets in all of business, and was tasked with turning that data into insights and information.",
-"Here I learned the tremendous value in well crafted and clear communication, and the key role economic analysis plays in making sound investment decisions at a corporate level.",
-"A key passion I discovered at ExxonMobil was turning raw data into actionable and insightful information and found the power in understanding databases, applied computation, and code.",
+"Here I learned the tremendous value in clear communication, and the key role well-structured economic analysis plays in making sound investment decisions at a corporate level.",
+"A key passion I discovered at ExxonMobil was turning raw data into actionable and insightful information. Through this I found the power in understanding databases, applied computation, and code.",
 ]
 
 wordsuca = [
