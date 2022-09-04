@@ -94,7 +94,7 @@ home = {
     'icons': {
         'python':{'icon':'static/icons/python.svg', 'name':'Python', 'link':'https://www.python.org'},
         'javascript':{'icon':'static/icons/javascript.svg', 'name':'JavaScript (JS)', 'link':'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
-        'postgresql':{'icon':'static/icons/sql.svg','name':'PostgreSQL', 'link':'https://www.postgresql.org'},
+        'mysql':{'icon':'static/icons/mysql.svg','name':'MySQL', 'link':'https://www.mysql.com'},
         'html':{'icon':'static/icons/html.svg','name':'HTML', 'link':'https://developer.mozilla.org/en-US/docs/Web/HTML'},
         'css':{'icon':'static/icons/css.svg', 'name':'CSS', 'link':'https://developer.mozilla.org/en-US/docs/Web/CSS'},
         'flask':{'icon':'static/icons/flask.svg', 'name':'Flask', 'link':'https://flask.palletsprojects.com/en/2.2.x/'},
@@ -123,7 +123,7 @@ fun = {
     'quote' : """
     "Curiosity has its own reason for existing."\n\t- Albert Einstein
     """,
-    'locs' : ['maroonbells', 'stream', 'mechazilla','garden', 'starbase','saturn5', 'midland', 'brk', 'pebble', 'carmel'],
+    'locs' : ['maroonbells', 'stream', 'mechazilla','garden', 'starbase','saturn5', 'midland', 'brk', 'pebble', 'carmel', 'cash', 'cashmace'],
     'images' : {
         'garden':'static/garden.jpeg',
         'maroonbells':'static/maroonbells.jpeg',
@@ -135,18 +135,22 @@ fun = {
         'brk':'static/brk.jpeg',
         'pebble':'static/pebble.jpeg',
         'saturn5':'static/saturn5.jpeg',
+        'cash':'static/cash.jpeg',
+        'cashmace':'static/cashmace.jpeg',
     },
     'words' : {
-        'garden':["This is the SpaceX 'Rocket Garden' at Starbase where the older rockets are on display for the public.  It is incredible how close you can get.", "Wondering through the SpaceX facility and seeing all the progress they have made in such a short amount of time was such a fascinating experience."],
+        'garden':["This is the SpaceX 'Rocket Garden' at Starbase where the older rockets are on display for the public.", "Wandering through the SpaceX facility and seeing all the progress they have made was such a fascinating experience.", "There is a lauch complex, as well humongous rocket manufacturing building.  It is incredible how close you can get."],
         'maroonbells':["This is a picture of the famous 'Marroon Bells' near Aspen, CO.", "Having grown up in Colorado I'll always love and appreciate the beauty of the mountains especially in the summertime."],
-        'starbase':["Starbase Texas, where SpaceX is developing the rockets and technology to go to Mars. It's remarkable what they are doing down at the end of Texas.", "The 'Starbase' is becoming a popular tourist stop in Texas. The top of this long sign is tiled in solar panels."],
+        'starbase':["Starbase Texas is a technology development facility for SpaceX.  Here they are developing the rockets and technology to go to Mars.", "The 'Starbase' sigh is becoming a popular tourist stop and photo opportunity in Texas. The top of this long sign is tiled in solar panels."],
         'mechazilla':["This is a view from Boca Chica Beach looking back at the SpaceX launch complex.", "The launch and catch structure has been nicknamed 'Mechazilla' and is quite a sight to see.", "In the picture you can also see a heavy booster and a 'Starship' on the ground."],
         'carmel':["The Monterey Penninsula is such a beautiful place.", "In this picture you can see a part of the famous Pebble Beach golf course."],
         'stream':["In Pfieffer Big Sur State Park we were surrounded by giant redwoods and sequoias (although there aren't any in this photo).", "The trees are indescribable, not to mention hard to capture in a photograph...", "Some day I hope to get up to Redwood National Park."],
-        'midland':["In 2015 at ExxonMobil I was assigned to be the analyst for the West Texas business unit.", "During this time, the United States became the largest oil producer in the world overtaking Saudia Arabia and Russia.  This U.S. oil production renaissance was driven by development of new fields in West Texas where ExxonMobil is a major player.", "This view of the oil fields is what you see as you fly into Midland.  Each 'pad' is an oil well and the extent to which oil fields cover the landscape left a strong impression on me to this day."],
-        'brk':["Studying the writings of Warren Buffett has been one of the most import steps in my development as a business professional.", "In 2016 I attended the Berkshire Hathaway Annual meeting and got hear Mr. Buffett speak in person.", "Simply remarkable to ponder how a textile company has evolved into what Berkshire Hathaway is today."],
+        'midland':["In 2015 at ExxonMobil I was assigned the West Texas business unit.", "During this time, the United States became the largest oil producer in the world overtaking Saudia Arabia and Russia.  This U.S. oil production renaissance was driven by development of new fields in West Texas where ExxonMobil is a major player.", "This view of the oil fields is what you see as you fly into Midland.  Each 'pad' is an oil well and the extent to which oil fields cover the landscape left a strong impression on me to this day."],
+        'brk':["Studying the writings of Warren Buffett has been one of the most import steps in my development as a business professional.", "Financial literacy and understanding investments has become a passion of mine, and in 2016 I attended the Berkshire Hathaway Annual meeting where I heard Mr. Buffett speak in person.", "Understanding how a kid from Omaha, Nebraska became one of the world's richest and most saavvy businessmen has been such an fortifying area of study for me."],
         'pebble':["Another stunning view of the California coast...the loan cypress.","There is something about the Pacific Ocean and the West Cost, even with less than ideal weather on a day like this",],
-        'saturn5':["If you are in Texas and you are interested in the space then the Johnson Space Center near Houston is a must see.", "On display here is a Saturn V rocket cobbled together with remaining parts from the Apollo program and missions.", "This rocket is massive!"],
+        'saturn5':["If you are in Texas and you are interested in the space then the Johnson Space Center near Houston is a must see.", "On display here is a Saturn V rocket cobbled together with remaining parts from the Apollo program and missions. This massive rocket is what is required to propell three men to the moon!"],
+        'cash':['Life can take you down some unexpected avenues.','This cat is named Cash and we found him in the bushes accross the street and we ended up fostering him and working with a local animal rescue.',"Cash was adopted in July and has found a loving home!  That was such a neat and fulfilling experience to be a part of."],
+        'cashmace':['We live in a cat friendly neighborhood and on the same day we met Cash, Mace (larger eared kitten on the right) came to our doorstep. Mace was really affraid of humans, and quite wild in a primal sense.','We ended up fostering him as well and it has been such a joy to see him transform into the friendly and fun loving kitten he has become.','We are currently looking for the right home for him.'],
     },
     'links' : {
         'garden':'https://goo.gl/maps/ao5J71RrhYNk6t8r7',
@@ -159,6 +163,8 @@ fun = {
         'brk':'https://goo.gl/maps/AVZNKKpusvkeCt529',
         'pebble':'https://goo.gl/maps/j4KiHk79RmHAxB7a9',
         'saturn5':'https://g.page/spacecenterhou?share',
+        'cash':'https://www.facebook.com/meowtownar/',
+        'cashmace':'https://www.facebook.com/meowtownar/',
     },
     'titles' : {
         'garden':'Boca Chica, TX',
@@ -171,6 +177,8 @@ fun = {
         'brk':'Omaha, NE',
         'pebble':'Monterey Penninsula, CA',
         'saturn5':'Houston, TX',
+        'cash':'Fort Worth, TX',
+        'cashmace':'Fort Worth, TX',
     },
     'linktext' : {
     },

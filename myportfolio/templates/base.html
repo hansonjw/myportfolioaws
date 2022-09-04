@@ -15,7 +15,7 @@
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.home') }}">Home</a>
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.projects') }}">Projects</a>
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.contact')}}">Contact</a>
-                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.fun') }}">Fun</a>
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.fun') }}">Interests</a>
                 </a>
             </div>
             
@@ -24,7 +24,7 @@
                     <a class="navbar-item {{ 'is-active' if active_page=='home' else '' }}" href="{{ url_for('routes.home') }}">Home</a>
                     <a class="navbar-item {{ 'is-active' if active_page=='projects' else '' }}" href="{{ url_for('routes.projects') }}">Projects</a>
                     <a class="navbar-item {{ 'is-active' if active_page=='contact' else '' }}" href="{{ url_for('routes.contact')}}">Contact</a>
-                    <a class="navbar-item {{ 'is-active' if active_page=='fun' else '' }}" href="{{ url_for('routes.fun') }}">Fun</a>
+                    <a class="navbar-item {{ 'is-active' if active_page=='fun' else '' }}" href="{{ url_for('routes.fun') }}">Interests</a>
                 </div>
 
                 <div class="navbar-end">
@@ -35,7 +35,7 @@
                             <a class="navbar-item" href="{{ url_for('routes.home') }}">Home</a>
                             <a class="navbar-item" href="{{ url_for('routes.projects') }}">Projects</a>
                             <a class="navbar-item" href="{{ url_for('routes.contact')}}">Contact</a>
-                            <a class="navbar-item" href="{{ url_for('routes.fun') }}">Fun</a>
+                            <a class="navbar-item" href="{{ url_for('routes.fun') }}">Interests</a>
                         </div>
                     </div>
                 </div>
