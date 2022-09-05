@@ -10,18 +10,28 @@
         </p>
     </div>
 </section>
+
 <section class="has-background-white-ter">
-    <div class="columns is-flex is-vcentered">
-        <div class="column is-one-third has-text-centered">
-            <figure class="image is-inline-block">
-                <img class="is-square is-rounded" src="static/pro.jpeg" ">
-            </figure>
-        </div>
-        <div class="column is-vcentered">
-            <div class="columns is-flex is-vcentered">
-                <block>{{ data.words }}</block>
+    <div class="columns is-vcentered is-multiline">
+        <div class="column is-5">
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+                    <figure class="image is-inline-block">
+                        <img class="is-square is-rounded" src="static/pro.jpeg" ">
+                    </figure>
+                </div>
             </div>
         </div>
+        <div class="column is-6">
+            <div class="columns">
+                <div class="column">
+                    {% for w in data.words %}
+                    <p class="intro p-2">{{ w }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="column is-1"></div>
     </div>
 </section>
 <section class="hero is-small has-background-white-bis">
@@ -74,11 +84,10 @@
                         </div>
                         <div class="card-content">
                             <div class="media">
-                            <div class="media-content">
-                                <p class="title is-6 is-centered">{{ data.university[x]['title'] }}</p>
+                                <div class="media-content">
+                                    <p class="title is-6 is-centered">{{ data.university[x]['title'] }}</p>
+                                </div>
                             </div>
-                            </div>
-                        
                             <div class="content">
                                 {% for w in data.university[x]['words'] %}
                                     <p>{{ w }}</p>
