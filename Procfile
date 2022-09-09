@@ -1,1 +1,0 @@
-web: gunicorn "myportfolio:create_app()"

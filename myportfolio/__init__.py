@@ -32,3 +32,6 @@ def create_app(test_config=None):
     
 
     return app
+
+# Trying this out for AWS deployment
+application = create_app()
