@@ -1,4 +1,7 @@
 venv/
+.virt/
+
+.ignore/
 
 *.pyc
 __pycache__/

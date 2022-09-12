@@ -18,12 +18,13 @@ techdict = {
         'bulma':{'icon':'static/icons/bulma.png', 'name':'Bulma', 'link':'https://bulma.io'},
         'bootstrap':{'icon':'static/icons/bootstrap.png', 'name':'Bootstrap', 'link':'https://getbootstrap.com'},
         'mysql':{'icon':'static/icons/mysql.svg', 'name':'MySQL', 'link':'https://www.mysql.com'},
+        'aws':{'icon':'static/icons/aws.svg', 'name':'AWS', 'link':'https://aws.amazon.com'}
     }
 
 footer = {
     'techlist':['python','flask', 'bulma'],
     'techdict': techdict,
-    'deployed':'heroku',
+    'deployed':'aws',
 }
 
 
@@ -41,6 +42,7 @@ home = {
     'icons': {
         'python':{'icon':'static/icons/python.svg', 'name':'Python', 'link':'https://www.python.org'},
         'javascript':{'icon':'static/icons/javascript.svg', 'name':'JavaScript (JS)', 'link':'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+        'aws':{'icon':'static/icons/aws.svg', 'name':'AWS', 'link':'https://aws.amazon.com'},
         'mysql':{'icon':'static/icons/mysql.svg','name':'MySQL', 'link':'https://www.mysql.com'},
         'html':{'icon':'static/icons/html.svg','name':'HTML', 'link':'https://developer.mozilla.org/en-US/docs/Web/HTML'},
         'css':{'icon':'static/icons/css.svg', 'name':'CSS', 'link':'https://developer.mozilla.org/en-US/docs/Web/CSS'},
@@ -159,11 +161,11 @@ fun = {
         'starbase':["Starbase Texas is a technology development facility for SpaceX located on the far Southern Tip of Texas.  Here they are developing the rockets and technology to take humanity to the Moon and Mars.", "The 'Starbase' sign is becoming a popular tourist stop and photo opportunity in Texas. The top of this long sign is tiled in solar panels."],
         'mechazilla':["This is a view from Boca Chica Beach looking back at the SpaceX launch complex.", "The launch and catch structure has been nicknamed 'Mechazilla' and is quite a sight to see.", "In the picture you can also see a heavy booster and a 'Starship' on the ground by the cranes."],
         'carmel':["The Monterey Penninsula is such a beautiful place.", "In this picture you can see a part of the famous Pebble Beach golf course."],
-        'stream':["In Pfieffer Big Sur State Park we were surrounded by giant redwoods and sequoias (although there aren't any in this photo).", "The trees are indescribable, not to mention hard to capture in a photograph...",],
+        'stream':["In Pfieffer Big Sur State Park we were surrounded by giant redwoods and sequoias (although there aren't any in this photo).", "The trees are indescribable, not to mention hard to capture in a photograph...next stop on the bucket list is Redwood National Park!",],
         'midland':["In 2015 at ExxonMobil I was assigned to the West Texas business unit.", "During this time, the United States became the largest oil producer in the world overtaking Saudia Arabia and Russia.  This U.S. oil production renaissance was driven by development of new fields in West Texas where ExxonMobil is a major player.", "This view of the oil fields is what you see as you fly into Midland.  Each 'pad' is an oil well and the extent to which oil fields cover the landscape left a strong impression on me to this day."],
         'brk':["Studying the writings of Warren Buffett has been one of the most import steps in my development as a business professional.", "Financial literacy and understanding investments has become a passion of mine, and in 2016 I attended the Berkshire Hathaway Annual meeting where I heard Mr. Buffett speak in person.", "Understanding how a kid from Omaha, Nebraska became one of the world's richest and most saavvy businessmen has been such an fortifying area of study for me."],
         'pebble':["Another stunning view of the California coast...the loan cypress.","There is something special about the Pacific Ocean.",],
-        'saturn5':["If you are in Texas and you are interested in the space then the Johnson Space Center near Houston is a must see.", "On display here is a Saturn V rocket cobbled together with remaining parts from the Apollo program and missions. This massive rocket is what is required to propel three men to the moon!"],
+        'saturn5':["If you are in Texas and you are interested in space then the Johnson Space Center near Houston is a must see.", "On display here is a Saturn V rocket cobbled together with remaining parts from the Apollo program and missions. This massive rocket is what is required to propel three men to the moon!"],
         'cash':['Life can take you down some unexpected avenues.','This is Cash and we found him in the bushes of the house accross the street.  We took him in, nursed him back to health, and started working with a local animal rescue to find him a permanent home.',"Cash was adopted in July and has found a loving home!  Helping Cash find his way in the world was such an unexpected and fulfilling experience."],
         'cashmace':['We live in a cat friendly neighborhood and on the same day we met Cash, Mace (larger eared kitten on the right) came to our doorstep. Mace was really affraid of humans, and quite wild in a primal sense.','We ended up fostering him as well.  It has been such a joy to see him transform into the friendly and fun loving kitten he has become.','We are currently looking for the right home for him.'],
     },
