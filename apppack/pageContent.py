@@ -50,7 +50,7 @@ home = {
         'django':{'icon':'static/icons/django.svg', 'name':'Django', 'link':'https://www.djangoproject.com'},
         'github':{'icon':'static/icons/github.png', 'name':'GitHub', 'link':'https://github.com'},
         'heroku':{'icon':'static/icons/heroku.png', 'name':'Heroku', 'link':'https://www.heroku.com/'},
-        # 'wordpress':{'icon':'static/icons/wordpress.svg', 'name':'WordPress', 'link':'https://wordpress.com'},
+        'postgresql':{'icon':'static/icons/postgresql.svg','name':'PostgreSQL', 'link':'https://www.postgresql.org'},
         'mongodb':{'icon':'static/icons/mongodb.svg', 'name':'MongoDB', 'link':'https://www.mongodb.com'},
         'bulma':{'icon':'static/icons/bulma.png', 'name':'Bulma', 'link':'https://bulma.io'},
         'bootstrap':{'icon':'static/icons/bootstrap.png', 'name':'Bootstrap', 'link':'https://getbootstrap.com'},
@@ -200,4 +200,23 @@ fun = {
     'linktext' : {
     },
     'footer':footer,
+}
+
+math = {
+    'title':'Mandelbrot Set',
+    'quote' : """"Experience is a dear teacher, but fools will learn at no other" - Poor Richard's Almanack""",
+    'images': {
+        'm101': 'static/m101.jpg',
+        'm102': 'static/m102.jpg',
+        'm103': 'static/m109.jpg',
+        'm104': 'static/m110.jpg',
+        'm105': 'static/m103.jpg',
+        'm106': 'static/m108.jpg',
+        'm107': 'static/m107.jpg',
+        'm108': 'static/m106.jpg',
+        'm109': 'static/m105.jpg',
+        'm110': 'static/m104.jpg',
+    },
+    'footer':footer,
+    'link': 'https://realpython.com/mandelbrot-set-python/'
 }
