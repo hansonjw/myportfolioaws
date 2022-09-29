@@ -1,11 +1,27 @@
 {% extends "base.html" %}
-{% set active_page="math" %}
+{% set active_page="fractal" %}
 
 {% block content %}
 <section class="hero is-small has-background-white-ter">
     <div class="hero-body">
         <p class="title">{{ data.title }}</p>
         <p class="subtitle is-italic is-size-6 py-3 has-text-grey">{{ data.quote }}</p>
+        {% for w in data.words %}    
+            <p class="intro p-2">{{ w }}</p>
+        {% endfor %}
+        <div class="columns">
+            <div class ="column">
+                <a class="button is-danger is-fullwidth" href="{{ data.tutorial }}" target="_blank">A great tutorial</a>
+            </div>                
+            {% for l in data.link %}
+            <div class ="column">
+                <a class="button is-link is-fullwidth" href="{{ l }}" target="_blank">A great Youtube video</a>
+            </div>
+            {% endfor %}
+            <div class ="column">
+                <a class="button is-warning is-fullwidth" href="{{ data.github }}" target="_blank">See my Code (GitHub)</a>
+            </div>
+        </div>
     </div>
 </section>
 <section class="has-background-white-ter">
@@ -21,18 +37,10 @@
                             </figure>
                         </div>
                         <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-6 is-centered">{{ "words uh, words" }}</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                            </div>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
-
             </div>
         </div>
     </div>

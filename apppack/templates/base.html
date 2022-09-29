@@ -16,7 +16,7 @@
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.projects') }}">Projects</a>
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.contact')}}">Contact</a>
                     <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.fun') }}">Interests</a>
-                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.math') }}">Math</a>
+                    <a class="navbar-item is-hidden-desktop" href="{{ url_for('routes.fractal') }}">Fractal</a>
                 </a>
             </div>
             
@@ -26,7 +26,7 @@
                     <a class="navbar-item {{ 'is-active' if active_page=='projects' else '' }}" href="{{ url_for('routes.projects') }}">Projects</a>
                     <a class="navbar-item {{ 'is-active' if active_page=='contact' else '' }}" href="{{ url_for('routes.contact')}}">Contact</a>
                     <a class="navbar-item {{ 'is-active' if active_page=='fun' else '' }}" href="{{ url_for('routes.fun') }}">Interests</a>
-                    <a class="navbar-item {{ 'is-active' if active_page=='math' else '' }}" href="{{ url_for('routes.math') }}">Math</a>                    
+                    <a class="navbar-item {{ 'is-active' if active_page=='fractal' else '' }}" href="{{ url_for('routes.fractal') }}">Fractal</a>                    
                 </div>
 
                 <div class="navbar-end">
@@ -38,7 +38,7 @@
                             <a class="navbar-item" href="{{ url_for('routes.projects') }}">Projects</a>
                             <a class="navbar-item" href="{{ url_for('routes.contact')}}">Contact</a>
                             <a class="navbar-item" href="{{ url_for('routes.fun') }}">Interests</a>
-                            <a class="navbar-item" href="{{ url_for('routes.math') }}">Math</a>
+                            <a class="navbar-item" href="{{ url_for('routes.fractal') }}">Fractal</a>
                         </div>
                     </div>
                 </div>

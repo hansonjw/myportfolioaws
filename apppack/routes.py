@@ -36,7 +36,7 @@ def contact():
     data = pageContent.contact
     return render_template('contact.html', data=data)
 
-@bp.route('/math', methods=(['GET']))
-def math():
-    data = pageContent.math
-    return render_template('math.html', data=data)
+@bp.route('/fractal', methods=(['GET']))
+def fractal():
+    data = pageContent.fractal
+    return render_template('fractal.html', data=data)

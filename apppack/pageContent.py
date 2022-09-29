@@ -1,4 +1,4 @@
-from .contentWords import wordsuco, wordsund, wordsuca, wordsem, wordsHome
+from .contentWords import wordsuco, wordsund, wordsuca, wordsem, wordsHome, wordsFractal
 
 # Common stuff
 #######
@@ -202,21 +202,29 @@ fun = {
     'footer':footer,
 }
 
-math = {
-    'title':'Mandelbrot Set',
+fractal = {
+    'title':'Fractals',
     'quote' : """"Experience is a dear teacher, but fools will learn at no other" - Poor Richard's Almanack""",
+    'words': wordsFractal,
     'images': {
         'm101': 'static/m101.jpg',
-        'm102': 'static/m102.jpg',
+        'm102': 'static/m106.jpg',
         'm103': 'static/m109.jpg',
         'm104': 'static/m110.jpg',
         'm105': 'static/m103.jpg',
         'm106': 'static/m108.jpg',
         'm107': 'static/m107.jpg',
-        'm108': 'static/m106.jpg',
+        'm108': 'static/m102.jpg',
         'm109': 'static/m105.jpg',
         'm110': 'static/m104.jpg',
     },
     'footer':footer,
-    'link': 'https://realpython.com/mandelbrot-set-python/'
+    'link': [
+            'https://www.youtube.com/watch?v=FFftmWSzgmk',
+            'https://www.youtube.com/watch?v=-RdOwhmqP5s',
+            'https://www.youtube.com/watch?v=LqbZpur38nw',
+            'https://docs.python.org/3/library/dataclasses.html',
+    ],
+    'github':'https://github.com/hansonjw/mandelbrot',
+    'tutorial':'https://realpython.com/mandelbrot-set-python/',
 }
