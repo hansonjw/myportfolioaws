@@ -10,7 +10,8 @@ from . import pageContent
 
 @bp.route('/', methods=(['GET']))
 def index():
-    return redirect('home')
+    data = pageContent.home
+    return render_template('index.html', data=data)
 
 
 @bp.route('/home', methods=(['GET']))
