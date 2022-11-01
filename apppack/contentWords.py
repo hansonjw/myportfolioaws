@@ -14,7 +14,7 @@ wordsund = [
 
 wordsem = [
 "After earning an MBA I was fortunate to land a role at one of the worlds oldest, largest, and most successful bluechip corporations.",
-"Here I got to work on fascinating, world scale projects and infrastructures.  Through this I clearly saw how big data and data science are shaping the economic and technological landscape for humanity.",
+"Here I got to work on fascinating, world scale projects and infrastructures.  Through this I clearly saw how big data and data science are shaping the economic and technological landscape.",
 "A key passion I discovered at ExxonMobil was leveraging data science and big data to convert raw data into meaningful information. Here I found the power in understanding databases, applied computation, code, and web-development.",
 ]
 
